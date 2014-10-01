@@ -1,6 +1,5 @@
-#
 class fqdn_uuid (
-  package_ensure = 'present',
+  $package_ensure = 'present',
 ) {
   include fqdn_uuid::params
 
